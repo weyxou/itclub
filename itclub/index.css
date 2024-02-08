@@ -1,0 +1,235 @@
+*{
+    width: auto;
+}
+header{
+    background-color: #fff;   
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.center a{
+    color: black;
+    text-decoration: none;
+}
+.cont1{
+    background-image: url("img/scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    height: 800px;
+    width: 1440px;
+}
+.cont2{
+width: 643px;
+height: 443px;
+margin-left: 739px;
+border-radius: 10px;
+background-color: #E8F9FD;
+padding: 20px;
+}
+.cont2 p{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 3px;
+text-align: left;
+
+}
+.cont2 h1{
+    font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0px;
+text-align: left;
+color: #46B6C5;
+}
+button{
+top: 585px;
+left: 778px;
+padding: 25px 72px;
+gap: 10px;
+background-color: #46B6C5;
+border: none;
+color: #fff;
+font-size: 14px;
+font-weight: 700;
+margin-top: 50px;
+}
+
+.block2{
+    margin-top: 70px;
+}
+.block2 h1, h2{
+    text-align: center;
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+    margin-left: 131px;
+}
+.rooms p {
+    margin-top: 30px; 
+}
+.rooms img{
+    width: 381px;
+    height: 480px;
+    border-radius: 10px;
+
+}
+
+.card {
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+}
+
+.card img {
+    width: 285px;
+    height: 301px;
+}
+
+.card h2, .card p {
+    margin-top: 10px; 
+}
+.card p {
+    margin-bottom: 0; 
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.block3 button{
+width: 245px;
+border: 1px solid #46B6C5;
+background-color: #fff;
+color: #46B6C5;
+text-align: center;
+margin-left: 650px;
+}
+
+.block4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color:#FCF8F3;
+
+}
+.text4{
+    width: Hug (391.31px);
+height: Hug (231px);
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 470px;
+}
+
+.text4 h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text4 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #46B6C5;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.i1 {
+    width: 370px; 
+    height: 580px;
+}
+.i2{
+    width: 344.95px;
+height: 486px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.help{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.help, .links h2{
+    color: #9F9F9F;
+}
+.help a{
+    color: black;
+    text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+footer h2{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 50px;
+}
+footer{
+    background-color: #BDE9EF;
+    height: 400px;
+}
+.alatoo h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+.alatoo p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+margin-left: 100px;
+}

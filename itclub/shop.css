@@ -1,0 +1,141 @@
+*{
+    width: auto;
+}
+header{
+    background-color: #fff;   
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.center a{
+    color: black;
+    text-decoration: none;
+}
+.cont1{
+    background-image: url(./img/Rectangle\ 1.png);
+    width: auto;
+    height: 320px;
+
+}
+.cont2{
+    background: #E8F9FD;
+    height: 90px;
+    width: auto;
+}
+.card {
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+}
+
+.card img {
+    width: 285px;
+    height: 301px;
+}
+
+.card h2, .card p {
+    margin-top: 10px; 
+}
+.card p {
+    margin-bottom: 0; 
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.cont3{
+    margin-top: 70px;
+}
+
+.cont4{
+    width: auto;
+    margin-top: 100px;
+    height: 270px;
+    padding: 100px, 0px, 100px, 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E8F9FD;
+}
+.a{
+    display: block;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.help{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.help, .links h2{
+    color: #9F9F9F;
+}
+.help a{
+    color: black;
+    text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+footer h2{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 50px;
+}
+footer{
+    background-color: #BDE9EF;
+    height: 400px;
+}
+.alatoo h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+.alatoo p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+margin-left: 100px;
+}
